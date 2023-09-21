@@ -1,0 +1,19 @@
+
+  <mat-sidenav-container class="sidenav-container">
+    <mat-sidenav #sidenav class="sidenav" [opened]="true">
+      <aside><ul>
+        <li><a href="https://www.wikipedia.org/">Wikipedia</a></li>
+        <li><a href="https://commons.wikimedia.org/">Wikimedia</a></li>
+        <li><a href="https://www.wikihow.com/">WikiHow</a></li>
+        <li><a href="https://en.wiktionary.org/">Wiktionary</a></li>
+        <li><a href="https://en.wikibooks.org/">Wikibooks</a></li>
+        <li><a href="https://wikitravel.org/">Wikitravel</a></li>
+        <li><a href="https://www.dokuwiki.org/">DokuWiki</a></li>
+        <li><a href="https://tiddlywiki.com/">TiddlyWiki</a></li>
+      </ul></aside>
+    </mat-sidenav>
+    <mat-sidenav-content>
+      <router-outlet></router-outlet>
+    </mat-sidenav-content>
+  </mat-sidenav-container>
+  
